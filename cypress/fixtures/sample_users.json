@@ -1,0 +1,19 @@
+{
+  "legalPerson": {
+    "name": "ACME Corporation",
+    "email": "contact@acmecorporation.com",
+    "ddd": "19",
+    "phone": "33417389",
+    "password": "321Petz",
+    "confirmPassword": "321Petz"
+  },
+  "naturalPerson": {
+    "name": "John Doe",
+    "email": "jhon.doe@gmail.com",
+    "ddd": "19",
+    "phone": "33417389",
+    "birthDate": "17/08/2002",
+    "password": "123Petz",
+    "confirmPassword": "123Petz"
+  }
+}
