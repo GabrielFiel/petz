@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://www.petz.com.br",
+  "video": true,
+  "defaultCommandTimeout": 6000
+}
