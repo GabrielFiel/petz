@@ -1,5 +1,24 @@
 {
   "baseUrl": "https://www.petz.com.br",
-  "video": true,
-  "defaultCommandTimeout": 6000
+  "video": false,
+  "defaultCommandTimeout": 6000,
+  "reporter": "cypress-mochawesome-reporter",
+  "blockHosts": [
+    "dtbot.directtalk.com.br",
+    "sdk.iad-03.braze.com",
+    "sdk.iad-01.braze.com",
+    "api.segment.io",
+    "in.hotjar.com",
+    "hotjar.com",
+    "ct.pinterest.com",
+    "stats.g.doubleclick.net",
+    "trc-events.taboola.com",
+    "trc.taboola.com",
+    "gum.criteo.com",
+    "api.ipify.org",
+    "masterpass.com",
+    "static.chaordicsystems.com",
+    "targeting.voxus.com.br",
+    "logs-01.loggly.com"
+  ]
 }

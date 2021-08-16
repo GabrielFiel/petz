@@ -1,13 +1,19 @@
 {
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:edge": "cypress run --browser edge",
+    "cy:run:firefox": "cypress run --browser firefox"
+  },
   "devDependencies": {
     "cpf-cnpj-validator": "^1.0.3",
-    "cypress": "^8.2.0"
+    "cypress": "^8.2.0",
+    "cypress-mochawesome-reporter": "^2.2.1"
   },
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
     "semi": false,
     "singleQuote": true
-  },
-  "dependencies": {}
+  }
 }
